@@ -1,0 +1,42 @@
+.pList {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pList-text {
+    width: 65%;
+}
+
+.pList-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.pList-desc {
+    margin: 20px 0;
+}
+
+.pList-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+    .pList {
+        padding: 10px;
+    }
+
+    .pList-text {
+        width: 100%;
+    }
+
+    .pList-desc {
+        display: none;
+    }
+}
